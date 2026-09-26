@@ -1,0 +1,27 @@
+name: Update Maeul in the Sky
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: t1seo/maeul-in-the-sky@v2.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          username: Optional-BhanuPrakash
+          preset: balanced
+          output_dir: ./
+          write_snapshot: 'true'
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: 'chore: update Maeul in the Sky'

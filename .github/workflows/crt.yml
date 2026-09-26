@@ -1,0 +1,21 @@
+name: Build CRT contribution SVGs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 10 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Generate SVGs
+        uses: stefashkaa/github-profile-crt@v1
+        with:
+          output-dir: assets
+          themes: crt,amber,ice,winamp,neon
+          github-user: Optional-BhanuPrakash
