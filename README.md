@@ -1,24 +1,61 @@
-# boku_contributions — dark mode showcase
+# maithresh.sh // contributions
 
-<div align="center">
+`SYS_STATUS: NOMINAL` // `LOC: HYDERABAD` // `USER: Optional-BhanuPrakash` // `THEME: TERMINAL-HUD-DARK`
 
-![Maeul village](maeul-in-the-sky-dark.svg)
+> `$ cat contributions.md` — every visual below is generated from live contribution data, dark-only, single file. No inflated claims: if a panel 404s, it says so inline.
 
-[![3D Commit City](https://commitpulse.vercel.app/api?username=Optional-BhanuPrakash&theme=neon)](https://commitpulse.vercel.app/?username=Optional-BhanuPrakash)
-
-</div>
+**TELEMETRY // SOURCES** — `maithresh.sh` companion repo. Blends with the terminal-HUD language: `$ prompts`, `STAGE //` pipelines, phosphor glow. Auto-updated daily via GitHub Actions.
 
 ---
 
-## 1. Maeul in the Sky — isometric village
+`$ run crt --primary` // PRIMARY — terminal-HUD match
+
+## STAGE 01 // SIGNAL-BOARD — CRT dashboard
+
+`stefashkaa/github-profile-crt` → `assets/` on `main` · animated scanlines · phosphor glow · `crt.yml` · verified live `2026-09-26`
+
+<div align="center">
+<img src="assets/crt-dark.svg" width="100%" alt="CRT signal board dark" />
+<img src="assets/neon-dark.svg" width="100%" alt="CRT neon dark" />
+<img src="assets/amber-dark.svg" width="49%" alt="CRT amber dark" />
+<img src="assets/ice-dark.svg" width="49%" alt="CRT ice dark" />
+</div>
+
+`$ echo $STATUS` — if the SVGs above 404, run **Actions → Build CRT contribution SVGs → Run workflow** once.
+
+---
+
+`$ run village --seeded-terrain`
+
+## STAGE 02 // TERRAIN — Maeul isometric village
+
+`t1seo/maeul-in-the-sky` → `maeul-in-the-sky-dark.svg` + snapshot on `main` · `maeul.yml` · quiet days form water, active days grow forest → farm → village → city
 
 <div align="center">
 <img src="maeul-in-the-sky-dark.svg" width="100%" alt="Maeul village dark" />
 <br/>
-<a href="https://t1seo.github.io/maeul-in-the-sky/tour/?snapshot=https%3A%2F%2Fraw.githubusercontent.com%2FOptional-BhanuPrakash%2Fboku_contributions%2Fmain%2Fmaeul-in-the-sky.snapshot.json">Walk the 3D tour</a>
+<a href="https://t1seo.github.io/maeul-in-the-sky/tour/?snapshot=https%3A%2F%2Fraw.githubusercontent.com%2FOptional-BhanuPrakash%2Fboku_contributions%2Fmain%2Fmaeul-in-the-sky.snapshot.json">OPEN 3D TOUR ↗</a>
 </div>
 
-## 2. Arcade games — all 6 classics
+---
+
+`$ run snake --pathfinding`
+
+## STAGE 03 // SERPENT — contribution snake
+
+`Platane/snk` → `output` branch via `games.yml` · eats the grid in path order
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/github-snake-dark.svg" width="100%" alt="snake dark" />
+</div>
+
+---
+
+`$ run arcade --all-6`
+
+## STAGE 04 // ARCADE — 6 playable classics
+
+`abozanona/pacman-contribution-graph` → `output` branch via `games.yml` · busiest days = power pellets · ghosts chase with real behaviors
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/pacman-contribution-graph-dark.svg" width="100%" alt="pacman dark" />
@@ -29,38 +66,50 @@
 <img src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/minesweeper-contribution-graph-dark.svg" width="100%" alt="minesweeper dark" />
 </div>
 
-## 3. CRT signal-board
+---
+
+`$ run city --isocalendar`
+
+## STAGE 05 // CITY — 3D calendar + terminal metrics
+
+`lowlighter/metrics` template **`terminal`** → root on `main` · `metrics.yml` · isocalendar + base
 
 <div align="center">
-<img src="assets/crt-dark.svg" width="100%" alt="CRT dark" />
-<img src="assets/neon-dark.svg" width="100%" alt="CRT neon dark" />
-<img src="assets/amber-dark.svg" width="49%" alt="CRT amber dark" />
-<img src="assets/ice-dark.svg" width="49%" alt="CRT ice dark" />
+<img src="metrics.plugin.isocalendar.svg" width="100%" alt="isocalendar terminal" />
+<img src="metrics.base.svg" width="100%" alt="metrics terminal base" />
 </div>
 
-## 4. 3D city + calendar
+Live 3D badge — link only, no embed (`/api` returned `404` on `2026-09-26`, so no broken image here):
 
-<div align="center">
-<img src="metrics.plugin.isocalendar.svg" width="100%" alt="isocalendar dark" />
-<img src="metrics.base.svg" width="100%" alt="metrics dark" />
-</div>
-
-## 5. Snake
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/github-snake-dark.svg" width="100%" alt="snake dark" />
-</div>
-
-## 6. Activity + streak (dark)
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Optional-BhanuPrakash&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff7b72)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-![Streak](https://streak-stats.demolab.com?user=Optional-BhanuPrakash&theme=dark&hide_border=true&background=0D1117&mode=weekly&animated=true)
-
-</div>
+- [Open CommitPulse 3D city ↗](https://commitpulse.vercel.app/?username=Optional-BhanuPrakash)
 
 ---
 
-<sub>Auto-updated daily via GitHub Actions · user <code>Optional-BhanuPrakash</code> · single dark README</sub>
+`$ curl -s stack.local/streak`
+
+## STAGE 06 // UPTIME — streak + activity
+
+Streak card — verified live `2026-09-26` (`tokyonight`, animated):
+
+<div align="center">
+
+![Streak](https://streak-stats.demolab.com/?user=Optional-BhanuPrakash&theme=tokyonight&hide_border=true&background=0D1117&mode=weekly&animated=true)
+
+</div>
+
+Activity graph — `DEGRADED 2026-09-26`: host returns `402` on all themes, embed kept for auto-recovery, metrics activity panel above is the fallback:
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Optional-BhanuPrakash&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff7b72)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+---
+
+`$ git log --oneline -5` // OPERATOR NOTES
+
+- Workflows: `crt.yml` · `maeul.yml` · `metrics.yml` · `games.yml` (arcade + snake merged — single `output` push, fixes the old two-workflow clobber). Deleted: `arcade.yml`, `snake.yml`.
+- First run: **Actions → run each workflow once** (`crt` already green). `output` branch appears after `games` goes green.
+- Fixes shipped: streak URL slash + `tokyonight` theme · metrics `classic` → `terminal` · CommitPulse demoted to link (`/api` 404) · activity-graph marked degraded (`402`).
+- Copy any `STAGE` block into `Optional-BhanuPrakash/Optional-BhanuPrakash` profile README — paths for `output` are absolute, `main` assets are relative.
+
+---
+
+`maithresh.sh // contributions` · `LOC: HYDERABAD` · designed & engineered solo · `© 2026`

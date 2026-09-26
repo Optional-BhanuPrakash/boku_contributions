@@ -1,12 +1,9 @@
-name: generate arcade contribution graphs
+name: games — arcade pack + snake (single output push)
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 1 * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   generate:
@@ -15,14 +12,24 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: generate contribution graph SVGs
+      - uses: actions/checkout@v6
+
+      - name: generate arcade SVGs (6 games)
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: Optional-BhanuPrakash
           games: 'pacman,breakout,galaga,puzzle-bobble,bomberman,minesweeper'
           hide_month_labels: 'false'
 
-      - name: push SVGs to the output branch
+      - name: generate snake (dark + light)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Optional-BhanuPrakash
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: push all game SVGs to output branch (one push — no clobber)
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
