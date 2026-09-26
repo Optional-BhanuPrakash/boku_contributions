@@ -27,7 +27,7 @@ jobs:
           github_user_name: Optional-BhanuPrakash
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-dark.svg?color_snake=#ff4fd8&color_dots=#1a1b27,#1f91cf,#6be8ff,#20ff24,#9cff9f
 
       - name: push all game SVGs to output branch (one push — no clobber)
         uses: crazy-max/ghaction-github-pages@v3.1.0

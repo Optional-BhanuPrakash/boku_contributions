@@ -6,6 +6,18 @@
 
 **TELEMETRY // SOURCES** — `maithresh.sh` companion repo. Blends with the terminal-HUD language: `$ prompts`, `STAGE //` pipelines, phosphor glow. Auto-updated daily via GitHub Actions.
 
+`$ load theme/palette.css` // every animation below is wired to these tokens:
+
+<div align="center">
+<img src="theme/palette.svg" width="100%" alt="shared palette swatches" />
+</div>
+
+- snake → `--pink` serpent `#ff4fd8` on `--panel→--cyan→--green` dot ramp (`games.yml`)
+- CRT → presets are the palette sources (`crt`=`--green`, `amber`, `ice`≈`--cyan`, `neon`=`--pink`+`--cyan`)
+- maeul → `motion: full` locked (`maeul.yml`)
+- metrics → `terminal` template · streak `tokyonight` · activity `tokyo-night`
+- site → same file: `theme/palette.css` (`var(--void)` … `var(--teal)`)
+
 ---
 
 `$ run crt --primary` // PRIMARY — terminal-HUD match

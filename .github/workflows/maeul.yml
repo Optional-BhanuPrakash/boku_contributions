@@ -19,6 +19,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           username: Optional-BhanuPrakash
           preset: balanced
+          motion: full
           output_dir: ./
           write_snapshot: 'true'
 
