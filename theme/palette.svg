@@ -23,5 +23,5 @@
     <g><rect x="580" y="108" width="100" height="34" rx="6" fill="#e1e6f1"/><text x="586" y="122" fill="#08030f">--text</text><text x="586" y="136" fill="#08030f">#e1e6f1</text></g>
     <g><rect x="692" y="108" width="100" height="34" rx="6" fill="#929caf"/><text x="698" y="122" fill="#08030f">--muted</text><text x="698" y="136" fill="#08030f">#929caf</text></g>
   </g>
-  <text x="20" y="170" font-size="11" fill="#929caf">TOKENS: theme/palette.css — snake #ff4fd8/#20ff24 ramp · CRT presets · streak tokyonight · activity tokyo-night</text>
+  <text x="20" y="170" font-size="11" fill="#929caf">TOKENS: theme/palette.css — snake #b7f1ff on cyan-dark ramp · CRT ice/neon/crt · streak tokyonight · activity tokyo-night</text>
 </svg>

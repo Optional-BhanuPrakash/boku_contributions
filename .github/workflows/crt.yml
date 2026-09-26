@@ -17,5 +17,5 @@ jobs:
         uses: stefashkaa/github-profile-crt@v1
         with:
           output-dir: assets
-          themes: crt,amber,ice,winamp,neon
+          themes: ice,neon,crt
           github-user: Optional-BhanuPrakash

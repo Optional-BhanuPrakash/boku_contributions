@@ -12,8 +12,8 @@
 <img src="theme/palette.svg" width="100%" alt="shared palette swatches" />
 </div>
 
-- snake → `--pink` serpent `#ff4fd8` on `--panel→--cyan→--green` dot ramp (`games.yml`)
-- CRT → presets are the palette sources (`crt`=`--green`, `amber`, `ice`≈`--cyan`, `neon`=`--pink`+`--cyan`)
+- snake → ice serpent `#b7f1ff` on cyan-dark ramp `#1a1b27→#6be8ff` (`games.yml`)
+- CRT → cyan-dark presets only (`ice`≈`--cyan`, `neon`=`--pink`+`--cyan`, `crt`=`--green` signal)
 - maeul → `motion: full` locked (`maeul.yml`)
 - metrics → `terminal` template · streak `tokyonight` · activity `tokyo-night`
 - site → same file: `theme/palette.css` (`var(--void)` … `var(--teal)`)
@@ -27,10 +27,9 @@
 `stefashkaa/github-profile-crt` → `assets/` on `main` · animated scanlines · phosphor glow · `crt.yml` · verified live `2026-09-26`
 
 <div align="center">
-<img src="assets/crt-dark.svg" width="100%" alt="CRT signal board dark" />
+<img src="assets/ice-dark.svg" width="100%" alt="CRT ice dark" />
 <img src="assets/neon-dark.svg" width="100%" alt="CRT neon dark" />
-<img src="assets/amber-dark.svg" width="49%" alt="CRT amber dark" />
-<img src="assets/ice-dark.svg" width="49%" alt="CRT ice dark" />
+<img src="assets/crt-dark.svg" width="100%" alt="CRT signal board dark" />
 </div>
 
 `$ echo $STATUS` — if the SVGs above 404, run **Actions → Build CRT contribution SVGs → Run workflow** once.
