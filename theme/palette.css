@@ -1,0 +1,72 @@
+/* maithresh.sh // palette — extracted 2026-09-26
+ * SOURCE: boku_contributions live assets (assets/*-dark.svg),
+ * streak tokyonight SVG, activity-graph dark params.
+ * USAGE: drop into the website repo, `@import` once, use vars only —
+ * no hardcoded hex in components. */
+
+:root {
+  /* SYS_STATUS // grounds */
+  --void: #0d1117;        /* page bg — activity-graph bg, GitHub dark */
+  --abyss: #08030f;       /* deepest black — neon-dark base */
+  --panel: #1a1b27;       /* tokyonight card bg — streak card */
+  --panel-plum: #12071f;  /* neon-dark panel wash */
+  --panel-plum-2: #1b0a2e;
+
+  /* TELEMETRY // text + grid */
+  --text: #e1e6f1;        /* primary text — CRT light cells */
+  --text-dim: #cfd8e8;    /* secondary text */
+  --muted: #929caf;       /* grid lines, dividers */
+  --faint: #f0f3fa;       /* hairline highlights */
+
+  /* PRIMARY // phosphor green — CRT `crt` theme, site accent */
+  --green: #20ff24;
+  --green-soft: #9cff9f;
+  --green-deep: #2da83d;
+  --green-moss: #2f6e3b;
+
+  /* SENSOR // cyan — scanline signal, site secondary */
+  --cyan: #6be8ff;
+  --cyan-soft: #b7f1ff;
+  --cyan-mid: #4ad6ff;
+  --cyan-deep: #1f91cf;
+  --cyan-abyss: #1a88bc;
+
+  /* SIGNAL // amber — `amber` theme, warnings */
+  --amber: #ffb347;
+  --amber-deep: #d88418;
+  --amber-soft: #ffcc80;
+  --amber-burnt: #a45c00;
+
+  /* VOLTAGE // neon pink + violet — `neon` theme, CTAs */
+  --pink: #ff4fd8;
+  --magenta-deep: #b334a0;
+  --purple: #b8a3ff;
+  --purple-soft: #bf91f3;
+
+  /* UPLINK // blues — links, activity line */
+  --blue: #58a6ff;
+  --blue-soft: #70a5fd;
+  --blue-steel: #3572a5;
+
+  /* ALERT + TELEMETRY accents */
+  --red: #ff7b72;         /* activity-graph point, errors */
+  --teal: #38bdae;        /* streak ranges, ok-states */
+  --lime: #89e051;        /* success ticks */
+}
+
+/* Reduced-motion + phosphor-glow helpers (optional) */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; }
+}
+
+.glow-green { text-shadow: 0 0 8px var(--green), 0 0 24px var(--green-deep); }
+.glow-cyan { text-shadow: 0 0 8px var(--cyan), 0 0 24px var(--cyan-deep); }
+.scanlines::after {
+  content: "";
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0 2px,
+    rgb(0 0 0 / 0.18) 2px 4px
+  );
+}
