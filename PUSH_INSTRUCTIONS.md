@@ -1,4 +1,4 @@
-# Push instructions — boku-contributions
+# Push instructions — boku_contributions
 
 No `gh` CLI found on this machine, so push manually (2 min).
 
@@ -6,9 +6,9 @@ No `gh` CLI found on this machine, so push manually (2 min).
 
 1. Go to https://github.com/new
    - Owner: `Optional-BhanuPrakash`
-   - Name: `boku-contributions`
+   - Name: `boku_contributions`
    - Public, no README/license/gitignore.
-2. Click **uploading an existing file** → drag ALL files from `boku-contributions/` (including `.github/`).
+2. Click **uploading an existing file** → drag ALL files from `boku_contributions/` (including `.github/`).
    - If `.github` is hidden in picker, zip the folder and upload via `Add file → Upload files` still works — or use Option B.
 3. Commit to `main`.
 4. Settings → Actions → General → Workflow permissions → **Read and write permissions** → Save.
@@ -23,11 +23,11 @@ No `gh` CLI found on this machine, so push manually (2 min).
 ## Option B: git (if installed)
 
 ```powershell
-cd C:\Users\bhanu\Downloads\boku\boku-contributions
+cd C:\Users\bhanu\Downloads\boku\boku_contributions
 git init -b main
 git add .
 git commit -m "feat: all 6 contribution visuals"
-git remote add origin https://github.com/Optional-BhanuPrakash/boku-contributions.git
+git remote add origin https://github.com/Optional-BhanuPrakash/boku_contributions.git
 git push -u origin main
 ```
 
@@ -36,7 +36,7 @@ Then same step 4–5 above.
 ## After first run
 
 - Copy embed snippets from `README.md` into https://github.com/Optional-BhanuPrakash/Optional-BhanuPrakash `README.md`.
-- For profile repo, change `raw.githubusercontent.com/.../boku-contributions/...` URLs stay as-is (cross-repo embeds work).
+- For profile repo, change `raw.githubusercontent.com/.../boku_contributions/...` URLs stay as-is (cross-repo embeds work).
 - Snake + arcade share `output` branch: if one overwrites the other, stagger crons (edit `arcade.yml` to `30 1 * * *`).
 - Streak card: if `herokuapp` URL is down, use `streak-stats.demolab.com?user=Optional-BhanuPrakash&...&animated=true` (maintained fork).
 - Activity graph must use `github-readme-activity-graph.vercel.app` (Heroku/Cyclic dead).

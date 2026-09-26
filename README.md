@@ -1,10 +1,10 @@
-# boku-contributions — all 6 GitHub contribution visuals
+# boku_contributions — all 6 GitHub contribution visuals
 
 User: `Optional-BhanuPrakash` · Auto-updated daily via GitHub Actions.
 
 > Showcase repo. After first Actions run, copy the embed blocks you want into your profile repo `Optional-BhanuPrakash/Optional-BhanuPrakash` README.
 
-Repo: create public repo named **`boku-contributions`** under `Optional-BhanuPrakash`, push this folder to `main`, enable Actions write + run each workflow once via `workflow_dispatch`.
+Repo: create public repo named **`boku_contributions`** under `Optional-BhanuPrakash`, push this folder to `main`, enable Actions write + run each workflow once via `workflow_dispatch`.
 
 ---
 
@@ -21,50 +21,50 @@ Repo: create public repo named **`boku-contributions`** under `Optional-BhanuPra
 ```
 
 3D tour (after snapshot enabled):
-`https://t1seo.github.io/maeul-in-the-sky/tour/?snapshot=https%3A%2F%2Fraw.githubusercontent.com%2FOptional-BhanuPrakash%2Fboku-contributions%2Fmain%2Fmaeul-in-the-sky.snapshot.json`
+`https://t1seo.github.io/maeul-in-the-sky/tour/?snapshot=https%3A%2F%2Fraw.githubusercontent.com%2FOptional-BhanuPrakash%2Fboku_contributions%2Fmain%2Fmaeul-in-the-sky.snapshot.json`
 
 ## 2. Arcade games pack — 6 playable classics (most fun)
 
 `abozanona/pacman-contribution-graph@main` → `output` branch: `pacman,breakout,galaga,puzzle-bobble,bomberman,minesweeper`.
 
-Replace `REPO` with `boku-contributions` if embedding here, or your profile repo if you run the workflow there:
+Replace `REPO` with `boku_contributions` if embedding here, or your profile repo if you run the workflow there:
 
 ```html
 <!-- pacman -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/pacman-contribution-graph.svg">
 </picture>
 <!-- breakout -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/breakout-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/breakout-contribution-graph.svg">
-  <img alt="breakout contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/breakout-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/breakout-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/breakout-contribution-graph.svg">
+  <img alt="breakout contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/breakout-contribution-graph.svg">
 </picture>
 <!-- galaga -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/galaga-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/galaga-contribution-graph.svg">
-  <img alt="galaga contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/galaga-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/galaga-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/galaga-contribution-graph.svg">
+  <img alt="galaga contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/galaga-contribution-graph.svg">
 </picture>
 <!-- puzzle-bobble -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/puzzle-bobble-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/puzzle-bobble-contribution-graph.svg">
-  <img alt="puzzle bobble contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/puzzle-bobble-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/puzzle-bobble-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/puzzle-bobble-contribution-graph.svg">
+  <img alt="puzzle bobble contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/puzzle-bobble-contribution-graph.svg">
 </picture>
 <!-- bomberman -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/bomberman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/bomberman-contribution-graph.svg">
-  <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/bomberman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/bomberman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/bomberman-contribution-graph.svg">
+  <img alt="bomberman contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/bomberman-contribution-graph.svg">
 </picture>
 <!-- minesweeper -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/minesweeper-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/minesweeper-contribution-graph.svg">
-  <img alt="minesweeper contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/minesweeper-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/minesweeper-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/minesweeper-contribution-graph.svg">
+  <img alt="minesweeper contribution graph" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/minesweeper-contribution-graph.svg">
 </picture>
 ```
 
@@ -97,9 +97,9 @@ Replace `REPO` with `boku-contributions` if embedding here, or your profile repo
 
 ```html
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku-contributions/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Optional-BhanuPrakash/boku_contributions/output/github-snake.svg" />
 </picture>
 ```
 
@@ -126,7 +126,7 @@ Full dashboard alternative: `lowlighter/metrics` 47 plugins (achievements, habit
 
 ## Setup
 
-1. GitHub → New repo → `Optional-BhanuPrakash/boku-contributions` (Public).
+1. GitHub → New repo → `Optional-BhanuPrakash/boku_contributions` (Public).
 2. Push this folder to `main`.
 3. Repo Settings → Actions → General → Workflow permissions → **Read and write**.
 4. Actions tab → run each workflow once: maeul, arcade, crt, snake, metrics.
